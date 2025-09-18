@@ -1,8 +1,13 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
+  margin: 0;
+  padding: 0;
   height: 100%;
   background-color: rgb(23, 42, 57);
   font-family: "Zain", sans-serif;
@@ -155,6 +160,8 @@ h3 {
 }
 
 .footer {
+  width: 100%;
+  margin: 0;
   background-color: #c8d7e0;
   padding: 5px 10px;
   color: rgb(40, 62, 82);

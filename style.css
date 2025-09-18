@@ -4,10 +4,7 @@
 html,
 body {
   height: 100%;
-}
-
-body {
-  background-color: rgb(236, 222, 195);
+  background-color: rgb(23, 42, 57);
   font-family: "Zain", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -20,7 +17,6 @@ header {
   width: 100%;
   z-index: 1000;
   backdrop-filter: blur(6px);
-  background: rgb(77, 56, 33);
   height: 64px;
   display: flex;
   align-items: center;
@@ -56,5 +52,104 @@ header {
 }
 
 .nav a:hover {
-  color: rgb(225, 208, 176);
+  color: rgb(191, 214, 233);
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 100px auto 60px;
+  padding: 0 20px;
+}
+
+.title-content {
+  flex: 1;
+}
+
+h1 {
+  color: rgb(236, 240, 246);
+  font-size: 70px;
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 50px 50px;
+  margin-right: 100px;
+}
+
+.title-bg {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 60%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px gray;
+}
+.link {
+  display: inline-block;
+  text-decoration: none;
+  background: rgb(255, 255, 255);
+  color: rgb(64, 64, 88);
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 110px;
+  margin-top: -60px;
+}
+
+h2 {
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+}
+h3 {
+  font-size: 18px;
+  font-family: "Bevan", serif;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(214, 199, 226);
+}
+
+.content {
+  margin: 70px;
+  color: white;
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.link-r {
+  color: rgb(185, 212, 241);
+}
+.refs {
+  color: rgb(255, 255, 255);
+}
+
+.sketch img {
+  width: 200px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-left: -20px;
+}
+
+.card-cover {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.system-map img {
+  width: 800px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-left: -20px;
 }

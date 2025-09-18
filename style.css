@@ -153,3 +153,17 @@ h3 {
   margin: 20px;
   margin-left: -20px;
 }
+
+.footer {
+  background-color: #c8d7e0;
+  padding: 5px 10px;
+  color: rgb(40, 62, 82);
+  font-family: "Zain", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.footer-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
